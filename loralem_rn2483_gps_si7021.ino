@@ -75,7 +75,7 @@ void initialize_radio()
   bool join_result = false;
   
   //ABP: initABP(String addr, String AppSKey, String NwkSKey);
-  join_result = myLora.initABP("2601112B", "CD915C83B62CA5379240898E418DEF64", "7DBD363CF5D058B7F3A2A18D4A07530E"); 
+  join_result = myLora.initABP("", "", "");  //ADD YOUR KEYS
     
   while(!join_result)
   {
